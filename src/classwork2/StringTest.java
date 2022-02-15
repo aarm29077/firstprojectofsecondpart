@@ -2,7 +2,9 @@ package classwork2;
 import java.util.Scanner;
 public class StringTest {
     public static void main(String[] args) {
-
+//        4
+//        tver mutqagrel lcnel zangvaci mej, heto tpel tvi indexy
+//        orinak 1, 2, 75, 75i indexy tpi 2
 
 
 
@@ -31,7 +33,12 @@ public class StringTest {
             string = scanner.next();
 
             System.out.println(indexOfString(string));
-
+//            char string1 = string.charAt(0);
+//            for (int i = 0; i < array1.length; i++) {
+//                if (string1 == array1[i]) {
+//                    System.out.println(string1);
+//                }
+//            }
         }
     }
         public static int indexOfString (String string){
