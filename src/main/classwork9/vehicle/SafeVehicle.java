@@ -8,7 +8,7 @@ public class SafeVehicle {
     public SafeVehicle(VehicleType type, int year) {
 //        if (type==VehicleType.BUS)//equals chenq anum, vorovhetev heapum mihat e enum sarqvac
         this.type = type;
-//        this.type=type.name();//nuyn toStringi derne katarum ete toStringy override chenq arel
+//        this.type=type.name();//nuyn toString i dern e katarum ete toStringy override chenq arel
         this.year = year;
     }
 
